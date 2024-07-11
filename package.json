@@ -1,0 +1,43 @@
+{
+  "name": "@hilosiva/postcss-transore",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "browserslist": [
+    "defaults"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hilosiva/postcss-transore"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "postcss": "postcss test/test.css -o test/styles.css",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "PostCSS",
+    "rem",
+    "em",
+    "clamp"
+  ],
+  "author": "Shibata Hironori",
+  "description": "remやem、clampの変換を行うPostCSSのプラグイン",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.10",
+    "jest": "^29.7.0",
+    "postcss-cli": "^11.0.0",
+    "ts-jest": "^29.2.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "postcss": "^8.4.39"
+  }
+}

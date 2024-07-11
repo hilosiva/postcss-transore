@@ -1,0 +1,8 @@
+/* src/styles.css */
+body {
+  font-size: fluid(16, 24);
+}
+
+.container {
+  margin: pxtorem(24) pxtorem(10) fluid(16, 24, 320, 1440);
+}

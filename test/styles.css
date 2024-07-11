@@ -1,0 +1,8 @@
+/* src/styles.css */
+body {
+  font-size: clamp(1rem, 0.8786407766990291rem + 0.517799352750809vw, 1.5rem);
+}
+
+.container {
+  margin: 1.5rem 0.625rem clamp(1rem, 0.8571428571428572rem + 0.7142857142857143vw, 1.5rem);
+}
